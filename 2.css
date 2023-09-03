@@ -1,0 +1,37 @@
+
+/* Tất cả màu bên dưới bạn đều có thể thay đổi được */
+.thuTitle {
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	font-size: 26pt;
+}
+
+.tamthu {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20pt;
+	color: white;
+	text-decoration: none;
+}
+body {
+	/* Ảnh nền của trang thứ 2 */
+	background-image: url("./img/bg2.jpg");
+	background-size: cover;
+    background-repeat: none;
+}
+span {
+	display: inline-block;
+	white-space: pre;
+}
+
+.iloveyou {
+	position: relative;
+}
+
+.mask {
+	position: absolute;
+	/*background-image: url("./img/trinh1.jpg");*/
+	width: 100%;
+	height:100%;
+	top: 0;
+	left: 0;
+}
